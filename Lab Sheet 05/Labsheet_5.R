@@ -24,7 +24,6 @@ mids <- histogram$mids  # Midpoints of the intervals
 plot(mids, cum_freq, type='o', main="Cumulative Frequency Polygon for Delivery Times",
      xlab="Delivery Time (minutes)", ylab="Cumulative Frequency", ylim=c(0, max(cum_freq)),
      pch=19, col="blue")
-
-# Optionally, you can add a grid for better visualization
 grid()
+
 
